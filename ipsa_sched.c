@@ -162,8 +162,8 @@ static void prvAperiodicTask( void * pvParameters )
 	for( ; ; )
 	{
    	 printf("Bonjour je suis la tache apériodique\n");
-    	// simulate a 100 ms task mais je vais mettre plus sinon c'est vraimenet chiant
+    	// simulate a 100 ms task mais je vais mettre plus sinon c'est vraimenet rapide
     	vTaskDelay( APERIODIC_TASK_DELAY_MS );
-    	// do some work here oui
+    	
 	}
 }
